@@ -1,3 +1,37 @@
-# Maven build files
-target
+# Eclipse
+.classpath
+.project
+.settings/
+.externalToolBuilders/
+maven-eclipse.xml
+.pmd
+.pmdruleset.xml
 
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+*.pyc
+dependency-reduced-pom.xml
+
+# OS Noise
+.DS_Store
+
+.vagrant
+solutions/
+
+#camel 2.15 backport noise
+.checkstyle
+.m2
+.pmd
+.pmdruleset.xml
+
+*.orig
+
+dependencies.xml
+.mvn
+*.swp
